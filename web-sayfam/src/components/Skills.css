@@ -1,0 +1,22 @@
+.title {
+  font-size: 48px;
+  font-weight: bold;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.skill {
+  margin-bottom: 0.5rem;
+  width: 30%;
+}
+.s-text {
+  margin-top: 1rem;
+  font-size: 12px;
+  color: #6b7280;
+}
+.s-name {
+  color: #3730a3;
+  font-weight: bold;
+}

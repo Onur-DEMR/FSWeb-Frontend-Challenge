@@ -1,0 +1,52 @@
+.App {
+  width: 1040px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.App header {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 720px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App a {
+  padding: 8px;
+}
+.App button {
+  margin-left: 8px;
+}
+.profile {
+  width: 720px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.img {
+  padding: 12px;
+}
+.skills {
+  width: 720px;
+  align-items: center;
+  margin: 0 auto;
+  align-content: center;
+}
+.title {
+  display: flex;
+  justify-content: flex-start;
+}
+.programs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.program {
+  margin-left: 10px;
+  margin-right: 10px;
+}

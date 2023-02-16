@@ -1,0 +1,44 @@
+.main {
+  background: #f9f9f9b6;
+  margin-top: 2rem;
+  padding-left: 4rem;
+}
+.title {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 125%;
+  color: #1f2937;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+.f-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+.contact > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.contact .user {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3rem;
+  outline: none;
+  border: 2px solid #3026bb;
+  border-radius: 12px;
+  font-size: 16px;
+}
+textarea {
+  height: 4rem !important;
+}

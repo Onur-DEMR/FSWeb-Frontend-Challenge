@@ -1,0 +1,83 @@
+.hero {
+  display: flex;
+  height: 60vh;
+  margin-top: 4rem;
+}
+.l-hero {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+.hero-button {
+  width: 6.5rem;
+  height: 2rem;
+  border-radius: 34px;
+  font-size: 16px;
+  padding: 10px 25px 10px 25px;
+  border: 1px solid #ffff;
+  color: #ffff;
+  background-color: #3730a3;
+  cursor: pointer;
+  box-shadow: 0px 20px 24px 3px #6b7280;
+}
+.hero-button:hover {
+  background-color: #ffff;
+  cursor: pointer;
+  color: #3730a3;
+  border: 1px solid #3730a3;
+}
+.wrap {
+  display: flex;
+}
+.button-h {
+  display: flex;
+  text-align: center;
+  width: 6.5rem;
+  height: 2rem;
+  border-radius: 34px;
+  border: 1px solid #3730a3;
+  color: #3730a3;
+  font-size: 16px;
+  padding: 10px 25px 10px 25px;
+  background-color: #ffff;
+  cursor: pointer;
+  box-shadow: 0px 20px 24px 3px #3026bb;
+}
+.button-h:hover {
+  background-color: #3730a3;
+  cursor: pointer;
+  color: #ffff;
+  border: 1px solid #ffff;
+}
+.r-hero {
+  flex: 1;
+}
+.h-title {
+  display: flex;
+  flex-direction: column;
+}
+.h-title > :nth-child(1) {
+  color: #3aa2f7;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.h-title > :nth-child(2) {
+  color: #3026bb;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.h-title > :nth-child(3) {
+  font-weight: 100;
+  font-size: 16px;
+  color: #6b7280;
+  margin-top: 10px;
+}
+.image {
+  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  border-radius: 18px;
+  border: none;
+  width: 50%;
+  height: 40vh;
+}

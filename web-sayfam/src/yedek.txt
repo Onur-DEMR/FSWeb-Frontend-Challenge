@@ -1,0 +1,65 @@
+ import React from "react";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <header>
+        <img
+          src="https://www.pngkit.com/png/detail/154-1545805_portfolio-icons-code-web-development-logo.png"
+          alt="logo"
+          height="80vh"
+        />
+        <nav>
+          <a href="/yetenekler/"> Yetenekler</a>
+          <a href="/projeler/">Projeler</a>
+          <button>İşe Al!</button>
+        </nav>
+      </header>
+      <div className="profile">
+        <div className="content" width="50%">
+          <div className="text">
+            <h1>tanıtım cümlesi</h1>
+            <p>
+              kişisel bilgiler kişisel bilgiler kişisel bilgilerkişisel
+              bilgilerkişisel bilgilerkişisel bilgilerkişisel bilgilervkişisel
+              bilgilerkişisel bilgilerkişisel bilgilerkişisel bilgilerkişisel
+              bilgiler
+            </p>
+          </div>
+          <div className="button">
+            <button>İşe Al</button>
+            <button>Git Hub</button>
+            <button>Linked-in</button>
+          </div>
+        </div>
+        <div className="img">
+          <img src="/profile.jpg" alt="profile" width="50%" />
+        </div>
+      </div>
+
+      <div className="skills">
+        <div className="title">
+          <h2>Yetenekler</h2>
+        </div>
+
+        <div className="programs">
+          <div className="program">
+            <h3>JavaScript</h3>
+            <p>JavaScript</p>
+          </div>
+          <div className="program">
+            <h3>Html</h3>
+            <p>JavaScript</p>
+          </div>
+          <div className="program">
+            <h3>CSS</h3>
+            <p>JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
